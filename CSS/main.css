@@ -1,0 +1,147 @@
+html{
+    scroll-behavior: smooth;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(20, 34, 61);
+    font-family: Montserrat;
+    color: white;
+    margin: 0px;
+    margin-top: -15px;
+    height: 1000px;
+}
+.Head{
+    position: fixed;
+    top: 0px;
+    background-color: rgb(20, 34, 61);
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 100%;
+}
+.Head:hover{
+    transition: 0.1s;
+    background-color: rgb(44, 53, 65);
+}
+.Title{
+    padding: 20px;
+    width: -moz-fit-content;
+    width: fit-content;
+    justify-content: center;
+}
+.Title p{
+    margin: 0;
+    font-size: 10px;
+}
+.Title .Icon{
+    font-size: 60px;
+    font-weight: 800;
+}
+.Title span{
+    font-size: 20px;
+    font-weight: 800;
+}
+.Title img{
+    position: relative;
+    left: 40px;
+}
+
+.navmenu{
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+.navmenu ul{
+    position: relative;
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+}
+.navmenu ul li{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.navmenu ul li a{
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.navmenu ul li a:hover{
+    transition: 0.1s;
+    color: white;
+    text-shadow: 0 0 5px #fff;
+}
+#active{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#active a{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(255, 237, 122);
+}
+#active a:hover{
+    transition: 0.1s;
+    color: rgb(255, 217, 102);
+    text-shadow: 0 0 5px rgb(255, 237, 122);
+}
+
+.userSign{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    padding: 10px;
+    margin: 10px;
+    z-index: 1;
+}
+.userSign a{
+    display: inline-block;
+    color: rgb(20, 34, 61);
+    padding: 10px;
+    width: 70px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+.userSign a:hover{
+    color: rgb(255, 237, 122);
+    border-color: rgb(255, 237, 122);
+    background-color: rgba(255, 237, 122, 0.3);
+}
+.userSign a:active{
+    color: #fff;
+    text-shadow: 0 0 5px rgb(255, 237, 122);;
+    border-color: #fff;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.sections{
+    position: relative;
+    height: 100vh;
+}
+#Home{
+    background: linear-gradient( rgba(20, 34, 61,0.8), rgba(20, 34, 61,0.7)), url("../IMG/firstSection.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+#HowWework{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#WhatYouGet{
+    background-color: rgb(20, 34, 61);
+}
+#Advantages{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#AboutUs{
+    background-color: rgb(20, 34, 61);
+}
